@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif JP", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-primary: #735C00;
+  --color-primary-light: #D4AF37;
+  --color-secondary: #685D4A;
+  --color-tertiary: #625E50;
+  --color-surface: #F9F9F9;
+  --color-surface-low: #F3F3F3;
+  --color-text-main: #1A1C1C;
+  --color-gold-light: #F4EBD0;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--color-text-main);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom utilities for the "Sacred Breath" feel */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ethereal-shadow {
+  box-shadow: 0 20px 60px -15px rgba(115, 92, 0, 0.08);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to bottom, #735C00, #A68A28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-ethereal-gradient {
+  background: radial-gradient(circle at top left, #ffffff 0%, #fdfbf7 40%, #f0e6d2 100%);
+}
+
+.bg-ethereal-gradient-bottom {
+  background: radial-gradient(circle at bottom center, #f0e6d2 0%, #fdfbf7 60%, #ffffff 100%);
+}
