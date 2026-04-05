@@ -65,9 +65,9 @@ export default function Price() {
                   <span>基本的なエネルギーサポート</span>
                 </li>
               </ul>
-              <a href="/#booking" className="block text-center w-full border border-primary/30 text-primary py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
+              {/*<a href="/#booking" className="block text-center w-full border border-primary/30 text-primary py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
                 ソフトプランを選ぶ
-              </a>
+              </a>*/}
             </motion.div>
 
             {/* Hard Plan */}
@@ -106,9 +106,9 @@ export default function Price() {
                   <span className="font-medium">優先予約対応</span>
                 </li>
               </ul>
-              <a href="/#booking" className="block text-center w-full bg-[#735C00] text-white py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500">
+              {/*<a href="/#booking" className="block text-center w-full bg-[#735C00] text-white py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500">
                 ハードプランを選ぶ
-              </a>
+              </a>*/}
             </motion.div>
           </div>
           <p className="text-center text-sm text-tertiary mt-12 italic">※分割払いも可能です。お気軽にご相談ください。</p>

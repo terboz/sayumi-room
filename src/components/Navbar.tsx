@@ -18,11 +18,11 @@ export default function Navbar() {
           <a href="/#booking" className="hover:text-primary transition-colors">Booking</a>
         </div>
         
-        <div className="hidden md:block">
+        {/*<div className="hidden md:block">
           <a href="/#booking" className="inline-block bg-gradient-to-r from-[#735C00] to-[#9A7B00] text-white px-6 py-2.5 rounded-full text-sm tracking-wider hover:opacity-90 transition-opacity">
             LINEから予約・相談
           </a>
-        </div>
+        </div>*/}
 
         {/* Mobile Menu Button */}
         <button 
@@ -44,10 +44,10 @@ export default function Navbar() {
           >
             <a href="/#method" onClick={() => setIsMenuOpen(false)} className="text-xl tracking-widest text-secondary hover:text-primary">Awakening Method</a>
             <Link to="/price" onClick={() => setIsMenuOpen(false)} className="text-xl tracking-widest text-secondary hover:text-primary">Price</Link>
-            <a href="/#booking" onClick={() => setIsMenuOpen(false)} className="text-xl tracking-widest text-secondary hover:text-primary">Booking</a>
+            {/*<a href="/#booking" onClick={() => setIsMenuOpen(false)} className="text-xl tracking-widest text-secondary hover:text-primary">Booking</a>
             <a href="/#booking" onClick={() => setIsMenuOpen(false)} className="mt-8 inline-block bg-gradient-to-r from-[#735C00] to-[#9A7B00] text-white px-8 py-3 rounded-full tracking-wider">
               LINEから予約・相談
-            </a>
+            </a>*/}
           </motion.div>
         )}
       </AnimatePresence>

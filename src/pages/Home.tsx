@@ -28,8 +28,8 @@ export default function Home() {
             className="z-10"
           >
             <motion.h1 variants={fadeUp} className="leading-[1.3] tracking-tight mb-8">
-              <span className="text-gradient-gold italic font-light text-4xl lg:text-5xl block mb-2">セレンディピター</span>
-              <span className="text-gradient-gold italic font-light text-4xl lg:text-5xl block mb-2">ライフコンサルタント</span>
+              <span className="text-gradient-gold italic font-light text-3xl lg:text-4xl block mb-2">セレンディピター</span>
+              <span className="text-gradient-gold italic font-light text-3xl lg:text-4xl block mb-2">ライフコンサルタント</span>
               <span className="text-gradient-gold italic font-light text-4xl lg:text-5xl block">SAYUMI</span>
             </motion.h1>
             <motion.p variants={fadeUp} className="text-secondary leading-[1.8] mb-12 max-w-lg text-lg">
@@ -84,7 +84,6 @@ export default function Home() {
             <motion.div variants={fadeUp} className="space-y-6 text-secondary leading-[1.8]">
               <p>15年以上のキャリアの中で、1万人を超える方々の素質を鑑定してきました。私の歩みは、自分自身の大きな変化から始まりました。</p>
               <p>30代で経験した大病をきっかけに、スピリチュアルな目醒めと深いエネルギーヒーリング、そして「聖なる息吹」へと導かれました。現在は、リーダーやクリエイター、そして真実を探求する方々を最高潮の波動へと導いています。</p>
-              <p>よく「見た目は少女漫画だけど、中身は松岡修造さんですね！」と言われるほど、お一人おひとりの人生に熱く向き合っています。</p>
               <p className="text-primary italic mt-8 text-lg">— 知恵と光による癒やし。</p>
             </motion.div>
           </motion.div>
@@ -274,7 +273,9 @@ export default function Home() {
             variants={fadeUp}
             className="text-center"
           >
-            <Link to="/price" className="inline-block bg-[#735C00] text-white px-12 py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 shadow-lg shadow-[#735C00]/20">
+            <Link to="/price"
+              onClick={() => window.scrollTo(0, 0)} // クリック時にトップへ
+              className="inline-block bg-[#735C00] text-white px-12 py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 shadow-lg shadow-[#735C00]/20">
               料金詳細を見る
             </Link>
           </motion.div>
@@ -316,7 +317,9 @@ export default function Home() {
             </div>
 
             <motion.div variants={fadeUp}>
-              <Link to="/price" className="inline-block border border-primary/30 text-primary px-10 py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
+              <Link to="/price"
+                onClick={() => window.scrollTo(0, 0)} // クリック時にトップへ
+                className="inline-block border border-primary/30 text-primary px-10 py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
                 料金詳細を見る
               </Link>
             </motion.div>
@@ -354,15 +357,16 @@ export default function Home() {
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl leading-[1.8] tracking-widest mb-12 italic font-light">
               "同じ行動は同じ結果に。<br />
               行動を変えると未来も変わる。<br />
-              自分を丁寧にゆったり愛する。さらなる高みへ。"
+              自分を丁寧にゆったり愛する。<br />
+              さらなる高みへ。"
             </motion.h2>
             <motion.p variants={fadeUp} className="text-primary text-lg mb-16 tracking-widest">
               心より愛を込めて。深謝。SAYUMI
             </motion.p>
-            <motion.a href="#booking" variants={fadeUp} className="bg-[#735C00] text-white px-12 py-5 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 text-lg shadow-xl shadow-[#735C00]/20 flex items-center mx-auto w-fit">
+            {/*<motion.a href="#booking" variants={fadeUp} className="bg-[#735C00] text-white px-12 py-5 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 text-lg shadow-xl shadow-[#735C00]/20 flex items-center mx-auto w-fit">
               LINEから予約・相談
               <svg className="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </motion.a>
+            </motion.a>*/}
           </motion.div>
         </div>
       </section>
