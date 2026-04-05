@@ -71,7 +71,7 @@ export default function App() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/40 to-transparent z-10 mix-blend-overlay rounded-2xl"></div>
             <img 
-              src="../media/flower.png" 
+              src="/media/flower.png" 
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1468327768560-75b778cbb551?q=80&w=1000&auto=format&fit=crop"; }}
               alt="Flower" 
               className="w-full h-auto rounded-2xl ethereal-shadow object-cover aspect-square"
@@ -91,7 +91,7 @@ export default function App() {
             variants={fadeUp}
           >
             <img 
-              src="../media/selfportrait.png" 
+              src="/media/selfportrait.png" 
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop"; }}
               alt="Woman Portrait" 
               className="w-full max-w-md mx-auto rounded-[2rem] ethereal-shadow object-cover aspect-[4/5]"
@@ -361,7 +361,7 @@ export default function App() {
             variants={fadeUp}
           >
             <img 
-              src="../media/lighting.png" 
+              src="/media/lighting.png" 
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop"; }}
               alt="Light in Darkness" 
               className="w-full h-auto rounded-[2rem] ethereal-shadow object-cover aspect-square"
