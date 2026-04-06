@@ -13,9 +13,9 @@ export default function Navbar() {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-12 text-sm tracking-widest text-secondary">
-          <a href="/#method" className="hover:text-primary transition-colors">Awakening Method</a>
+          {/* <a href="/#method" className="hover:text-primary transition-colors">Awakening Method</a> */}
           <Link to="/price" className="hover:text-primary transition-colors">Price</Link>
-          <a href="/#booking" className="hover:text-primary transition-colors">Booking</a>
+          {/* <a href="/#booking" className="hover:text-primary transition-colors">Booking</a> */}
         </div>
         
         {/*<div className="hidden md:block">
