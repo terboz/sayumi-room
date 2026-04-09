@@ -36,7 +36,7 @@ export default function Home() {
               私の人生体験を元にスタートしたメソッドです。30代で大病を経験してから、15年間で1万人以上の素質を鑑定。あなたの真の魂を目醒めさせ、軽やかに生きる土台作りをお手伝いします。
             </motion.p>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -44,10 +44,10 @@ export default function Home() {
             className="relative"
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/40 to-transparent z-10 mix-blend-overlay rounded-2xl"></div>
-            <img 
-              src="/media/flower.png" 
+            <img
+              src="/media/flower.png"
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1468327768560-75b778cbb551?q=80&w=1000&auto=format&fit=crop"; }}
-              alt="Flower" 
+              alt="Flower"
               className="w-full h-auto rounded-2xl ethereal-shadow object-cover aspect-square"
               referrerPolicy="no-referrer"
             />
@@ -64,10 +64,10 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             variants={fadeUp}
           >
-            <img 
-              src="/media/selfportrait.png" 
+            <img
+              src="/media/selfportrait.png"
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop"; }}
-              alt="Woman Portrait" 
+              alt="Woman Portrait"
               className="w-full max-w-md mx-auto rounded-full ethereal-shadow object-cover aspect-square"
               referrerPolicy="no-referrer"
             />
@@ -84,7 +84,7 @@ export default function Home() {
             <motion.div variants={fadeUp} className="space-y-6 text-secondary leading-[1.8]">
               <p>15年以上のキャリアの中で、1万人を超える方々の素質を鑑定してきました。私の歩みは、自分自身の大きな変化から始まりました。</p>
               <p>30代で経験した大病をきっかけに、スピリチュアルな目醒めと深いエネルギーヒーリング、そして「聖なる息吹」へと導かれました。現在は、リーダーやクリエイター、そして真実を探求する方々を最高潮の波動へと導いています。</p>
-              <p className="text-primary italic mt-8 text-lg">— 知恵と光による癒やし。</p>
+              <p className="text-primary italic mt-8 text-lg">— 知恵と光による癒やし —</p>
             </motion.div>
           </motion.div>
         </div>
@@ -208,8 +208,8 @@ export default function Home() {
               variants={fadeUp}
               className="border border-[#D0C5AF]/30 rounded-[2rem] p-10 relative overflow-hidden group hover:border-primary/30 transition-colors duration-500"
             >
-              <div className="absolute top-10 right-10 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
-                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#735C00" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+              <div className="absolute top-3.5 right-10 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#735C00" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
               </div>
               <h3 className="text-2xl mb-6">ソフトプラン</h3>
               <p className="text-secondary leading-[1.7] mb-10 min-h-[80px]">
@@ -331,10 +331,10 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             variants={fadeUp}
           >
-            <img 
-              src="/media/lighting.png" 
+            <img
+              src="/media/lighting.png"
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop"; }}
-              alt="Light in Darkness" 
+              alt="Light in Darkness"
               className="w-full h-auto rounded-[2rem] ethereal-shadow object-cover aspect-square"
               referrerPolicy="no-referrer"
             />
@@ -355,10 +355,10 @@ export default function Home() {
               <Infinity className="w-12 h-12 text-primary/60" strokeWidth={1} />
             </motion.div>
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl leading-[1.8] tracking-widest mb-12 italic font-light">
-              "同じ行動は同じ結果に。<br />
-              行動を変えると未来も変わる。<br />
-              自分を丁寧にゆったり愛する。<br />
-              さらなる高みへ。"
+              "同じ行動は同じ結果に<br />
+              行動を変えると未来も変わる<br />
+              自分を丁寧にゆったり愛する<br />
+              さらなる高みへ"
             </motion.h2>
             <motion.p variants={fadeUp} className="text-primary text-lg mb-16 tracking-widest">
               心より愛を込めて。深謝。SAYUMI
