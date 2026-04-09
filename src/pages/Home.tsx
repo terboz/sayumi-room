@@ -273,9 +273,7 @@ export default function Home() {
             variants={fadeUp}
             className="text-center"
           >
-            <Link to="/price"
-              onClick={() => window.scrollTo(0, 0)} // クリック時にトップへ
-              className="inline-block bg-[#735C00] text-white px-12 py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 shadow-lg shadow-[#735C00]/20">
+            <Link to="/price" className="inline-block bg-[#735C00] text-white px-12 py-4 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 shadow-lg shadow-[#735C00]/20">
               料金詳細を見る
             </Link>
           </motion.div>
@@ -317,9 +315,7 @@ export default function Home() {
             </div>
 
             <motion.div variants={fadeUp}>
-              <Link to="/price"
-                onClick={() => window.scrollTo(0, 0)} // クリック時にトップへ
-                className="inline-block border border-primary/30 text-primary px-10 py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
+              <Link to="/price" className="inline-block border border-primary/30 text-primary px-10 py-4 rounded-full tracking-wider hover:bg-primary/5 transition-colors duration-500">
                 料金詳細を見る
               </Link>
             </motion.div>
