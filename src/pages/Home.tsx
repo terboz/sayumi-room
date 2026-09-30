@@ -65,7 +65,7 @@ export default function Home() {
             variants={fadeUp}
           >
             <img
-              src="/media/selfportrait.png"
+              src="/media/selfportrait.jpg"
               onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop"; }}
               alt="Woman Portrait"
               className="w-full max-w-md mx-auto rounded-full ethereal-shadow object-cover aspect-square"
