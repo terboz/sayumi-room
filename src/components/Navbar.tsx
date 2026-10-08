@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full z-50 top-0 transition-all duration-500 bg-white/50 backdrop-blur-md border-b border-white/20">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <Link to="/" className="text-xl tracking-widest text-primary font-medium z-50">SAYUMI</Link>
+        <Link to="/" className="text-xl tracking-widest text-primary font-medium z-50">✨Serendipity S✨</Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-12 text-sm tracking-widest text-secondary">

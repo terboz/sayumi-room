@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="py-12 bg-white border-t border-surface-low text-center">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-primary text-xl tracking-widest mb-8">SAYUMI</div>
+        <div className="text-primary text-xl tracking-widest mb-8">✨Serendipity S✨</div>
         {/*<div className="flex justify-center gap-8 text-sm text-secondary mb-12 font-sans">
           <a href="#" className="hover:text-primary transition-colors">プライバシーポリシー</a>
           <a href="#" className="hover:text-primary transition-colors">利用規約</a>
