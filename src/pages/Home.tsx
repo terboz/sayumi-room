@@ -29,7 +29,7 @@ export default function Home() {
           >
             <motion.h1 variants={fadeUp} className="leading-[1.3] tracking-tight mb-8">
               <span className="text-gradient-gold italic font-light text-3xl lg:text-4xl block mb-2">両脳コンサルタント</span>
-              <span className="text-gradient-gold italic font-light text-4xl lg:text-5xl block">SAYUMI</span>
+              <span className="text-gradient-gold italic font-light text-4xl lg:text-5xl leading-[1.5] pb-1 block">Sayumi</span>
             </motion.h1>
             <motion.p variants={fadeUp} className="text-secondary leading-[1.8] mb-12 max-w-lg text-lg">
               私の人生体験を元にスタートしたメソッドです。30代で大病を経験してから、15年間で1万人以上の素質を鑑定。あなたの真の魂を目醒めさせ、軽やかに生きる土台作りをお手伝いします。
@@ -356,7 +356,7 @@ export default function Home() {
               さらなる高みへ"
             </motion.h2>
             <motion.p variants={fadeUp} className="text-primary text-lg mb-16 tracking-widest">
-              心より愛を込めて。深謝。SAYUMI
+              心より愛を込めて。深謝。Sayumi
             </motion.p>
             {/*<motion.a href="#booking" variants={fadeUp} className="bg-[#735C00] text-white px-12 py-5 rounded-full tracking-wider hover:bg-[#5a4800] transition-colors duration-500 text-lg shadow-xl shadow-[#735C00]/20 flex items-center mx-auto w-fit">
               LINEから予約・相談

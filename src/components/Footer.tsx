@@ -9,7 +9,7 @@ export default function Footer() {
           <a href="#" className="text-primary border-b border-primary/30 pb-1 hover:border-primary transition-colors">LINE公式アカウント</a>
         </div>*/}
         <p className="text-xs text-tertiary font-sans">
-          &copy; SAYUMI. The Sacred Breath of Awakening.
+          &copy; Sayumi. The Sacred Breath of Awakening.
         </p>
       </div>
     </footer>
